@@ -41,7 +41,7 @@ From my run, the best-performing model is the voting ensemble as shown below.
 ****Recall and False Positive Rate****
 
 
-**3. Deploy Best Model **
+**3. Deploy Best Model**
 The best model from my AutoML run is deployed into production using Azure Container Instance (ACI) and I can access endpoints through which other services can interact with my deployed model. 
 I also enable authentication during deployment so keys are generated that other services can use to authenticate before interacting with my deployed model.
 
