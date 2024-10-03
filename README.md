@@ -8,7 +8,10 @@ This project is part of the Udacity Azure ML Nanodegree (Microsoft Azure Machine
 
 ## Architectural Diagram
 Here is my architecture diagram for this project:
+**Deploy the Model**
 ![alt text](<screenshots/Project 2 - Architechture diagram.PNG>)
+**Publish Pipeline**
+screenshots/Project 2 - Architechture diagram - pipeline.PNG
 Let me explore some key of the component in this project:
 - **1. Authentication**: In this step, I need to create a Security Principal (SP) to interact with the Azure Workspace. Since I used the Udacity lab for the project, I skipped this step
 - **2. Automated ML Experiment**: In this step, I create an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
