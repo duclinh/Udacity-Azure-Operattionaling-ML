@@ -8,6 +8,7 @@ This project is part of the Udacity Azure ML Nanodegree (Microsoft Azure Machine
 
 ## Architectural Diagram
 Here is my architecture diagram for this project:
+
 **Deploy the Model**
 
 ![alt text](<screenshots/Project 2 - Architechture diagram.PNG>)
