@@ -20,9 +20,11 @@ Let me explore some key of the component in this project:
 
 ## Key Steps
 **1. Authentication**
+
 I used the lab Udacity for this exercise, so I skipped this step since I'm not authorized to create a security principal.
 
 **2. Automated ML Experiment**
+
 In this step, I created an AutoML experiment to run using the **Bank Marketing Dataset** loaded in the Azure Workspace, choosing 'y' as the target column.
 I uploaded this dataset into Azure ML Studio in the Registered Dataset Section using the Local file or URL provided in the project.
 I used the **Standard_DS3_v2** for the Virtual Machine and 1 as the minimum number of nodes.
@@ -31,9 +33,12 @@ From my run, the best-performing model is the voting ensemble as shown below.
 
 **Registered Dataset**
 
+
 **Experiment Completed**
 
+
 **Best Model**
+
 ****Best model metrics****
 
 ****Accuracy****
@@ -42,6 +47,7 @@ From my run, the best-performing model is the voting ensemble as shown below.
 
 
 **3. Deploy Best Model**
+
 The best model from my AutoML run is deployed into production using Azure Container Instance (ACI) and I can access endpoints through which other services can interact with my deployed model. 
 I also enable authentication during deployment so keys are generated that other services can use to authenticate before interacting with my deployed model.
 
@@ -52,19 +58,21 @@ I also enable authentication during deployment so keys are generated that other 
 **The Endpoints**
 
 **4. Enable logging**
+
 After deploying the best model, I can enable Application Insights and retrieve logs.
 Enabling Application Insights and Logs could have been done at the time of deployment, but for this project, I achieved it using Azure Python SDK. Running the **logs.py** script requires interactive authentication
-
 
 I enable application insights by adding this line to the script: **service.update(enable_app_insights = True)**
 
 
 
 **5. Swagger Documentation**
+
 To consume my best AutoML model using Swagger, I first need to download the **swagger.json** file provided to us in the Endpoints section of Azure Machine Learning Studio. Then I run the **swagger.sh** and **serve.py** files to be able to interact with the swagger instance running with the documentation for the HTTP API of the model.
 
 
 **6. Consume model endpoints**
+
 Finally, it's time to interact with the model and feed some test data to it. We do this by providing the **scoring_uri** and the key to the **endpoint.py** script and running it.
 
 **Default Swagger page**
@@ -75,6 +83,7 @@ Finally, it's time to interact with the model and feed some test data to it. We 
 
 
 **7. Create and publish a pipeline**
+
 For this step, I used the aml-pipelines-with-automated-machine-learning-step Jupyter Notebook to create a Pipeline. I created, consumed and published the best model for the bank marketing dataset using AutoML with Python SDK.
 
 **Create a Pipeline in the SDK**
