@@ -34,15 +34,23 @@ I used the lab Udacity for this exercise, so I skipped this step since I'm not a
 
 In this step, I created an AutoML experiment to run using the **Bank Marketing Dataset** loaded in the Azure Workspace, choosing 'y' as the target column.
 I uploaded this dataset into Azure ML Studio in the Registered Dataset Section using the Local file or URL provided in the project.
-I used the **Standard_DS3_v2** for the Virtual Machine and 1 as the minimum number of nodes.
+I used the **Standard_DS2_v2** for the Virtual Machine and 1 as the minimum number of nodes.
 I ran the experiment using classification, without enabling Deep Learning. The run took some time to test various models and find the best model for the task.
 From my run, the best-performing model is the voting ensemble as shown below.
 
 **Registered Dataset**
+![alt text](<screenshots/1. Registered Dataset.png>)
 
+**Created Compute Instance**
+![alt text](<screenshots/2. Compute instances.png>)
 
-**Experiment Completed**
+**Created Compute Cluster**
+![alt text](<screenshots/3. Compute cluste.png>)
 
+**Experiment Created**
+![alt text](<screenshots/4. Experiment.png>)
+
+**Automated ML Experiment Success**
 
 **Best Model**
 
