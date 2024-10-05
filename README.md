@@ -114,4 +114,6 @@ For this step, I used the aml-pipelines-with-automated-machine-learning-step Jup
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+
+- since the data is highly imbalanced, use a technique to first handle the imbalance issue to improve the model predictions
+- enable deep learning which will train more models and may yield a better performing model
