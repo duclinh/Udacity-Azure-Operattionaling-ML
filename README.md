@@ -50,41 +50,48 @@ From my run, the best-performing model is the voting ensemble as shown below.
 **Experiment Created**
 ![alt text](<screenshots/4. Experiment.png>)
 
-**Automated ML Experiment Success**
+**Created AutoML Experiment**
+![alt text](<screenshots/3. Created AutoML Exprements.png>)
+
+**running AutoML Experiment**
+![alt text](<screenshots/4. run Auto ML Experiment.png>)
 
 **Best Model**
 
+****List of the Best models****
+![alt text](<screenshots/6. List of Best models (Algorithm name).png>)
+
+****the Best models****
+![alt text](<screenshots/7.  The best model.png>)
+
 ****Best model metrics****
-
-****Accuracy****
-
-****Recall and False Positive Rate****
-
+![alt text](<screenshots/7.1. the Best model with Metric (1).png>)
+![alt text](<screenshots/7.1. the Best model with Metric (2).png>)
 
 **3. Deploy Best Model**
 
 The best model from my AutoML run is deployed into production using Azure Container Instance (ACI) and I can access endpoints through which other services can interact with my deployed model. 
 I also enable authentication during deployment so keys are generated that other services can use to authenticate before interacting with my deployed model.
+**Enable loggin**
+
 
 **Deploy the best model using Azure Container Instance (ACI) with Authentication enabled**
-
-**The model is successfully deployed**
-
-**The Endpoints**
+![alt text](<screenshots/8. Deploy Model.png>)
 
 **4. Enable logging**
 
 After deploying the best model, I can enable Application Insights and retrieve logs.
 Enabling Application Insights and Logs could have been done at the time of deployment, but for this project, I achieved it using Azure Python SDK. Running the **logs.py** script requires interactive authentication
+![alt text](<screenshots/9. Enable logging.png>)
 
 I enable application insights by adding this line to the script: **service.update(enable_app_insights = True)**
-
+![alt text](<screenshots/10. Application Insights enabled.png>)
 
 
 **5. Swagger Documentation**
 
 To consume my best AutoML model using Swagger, I first need to download the **swagger.json** file provided to us in the Endpoints section of Azure Machine Learning Studio. Then I run the **swagger.sh** and **serve.py** files to be able to interact with the swagger instance running with the documentation for the HTTP API of the model.
-
+![alt text](<screenshots/Run localhost for swagger (1).png>)
 
 **6. Consume model endpoints**
 

@@ -8,7 +8,8 @@
 
 4. Download the config.json file from the top left menu in the Azure portal. 
 5. Put this file in the same directory of other files needed for this exercise
-6. In the Endpoints section, click on "EndPoints name" of Deploy status in (3) --> in Detail tab, scroll downto the items "Application Insights enabled" should be false
+6. In the Endpoints section, click on "EndPoints name" of Deploy status in (3) 
+--> in Detail tab, scroll downto the items "Application Insights enabled" should be false
 7. Open file logs.py --> update name of services as "Endpoints Name" --> Run (choose kelnel python NOT Python - for AutoML)
 8. Recheck the (6) --> "Application Insights enabled" should be true
 
