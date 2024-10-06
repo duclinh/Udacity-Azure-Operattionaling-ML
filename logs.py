@@ -5,7 +5,7 @@ from azureml.core.webservice import Webservice
 ws = Workspace.from_config()
 
 # Set with the deployment name
-name = "demo-model-deploy"
+name = "demo-model-bankmarketing"
 
 # load existing web service
 service = Webservice(name=name, workspace=ws)
@@ -17,3 +17,5 @@ logs = service.get_logs()
 
 for line in logs.split('\n'):
     print(line)
+
+
