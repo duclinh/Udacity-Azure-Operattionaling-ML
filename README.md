@@ -134,9 +134,12 @@ For this step, I used the **public-an-machine-learning-pipeline.ipynb** Jupyter 
 ![alt text](<screenshots/the best model pipeline endpoint.png>)
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+- The virtual environment on Udacity is not compatible with all the steps like the real environment, so there are many limitations for learners. 
+
+- The virtual environment on Udacity running Azure  Automated ML Experiment to train is quite slow and takes almost all the time of the Lab environment allowed on Udacity --> I don't have enough time to record a video --> please follow the steps and results I have done above and evaluate
 
 ## Standout Suggestions
 
-- since the data is highly imbalanced, use a technique to first handle the imbalance issue to improve the model predictions
-- enable deep learning which will train more models and may yield a better performing model
+- Since the data is highly imbalanced, use a technique to first handle the imbalance issue to improve the model predictions
+- Enable deep learning which will train more models and may yield a better performing model
+- Run on an environment with a stronger CPU/GPU for faster model training
