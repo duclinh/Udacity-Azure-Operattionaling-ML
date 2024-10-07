@@ -128,7 +128,7 @@ For this step, I used the aml-pipelines-with-automated-machine-learning-step Jup
 **Run Completed - The best model**
 ![alt text](<screenshots/14. pipeline the best model.png>)
 
-**Pipeline Rest Endpoint - Completed**
+**Consume a pipeline Endpoint - Completed**
 ![alt text](<screenshots/pipeline with endpoint.png>)
 
 **Pipeline Rest Endpoint - Metrics**
