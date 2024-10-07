@@ -4,7 +4,7 @@
 # Operationalizing-Machine-Learning
 
 ## Overview
-This project is part of the Udacity Azure ML Nanodegree (Microsoft Azure Machine Learning Engineer with Microsoft Azure - Cmyse 3: ). In this project, I use the Bank marketing datasets and Azure to configure a cloud-based machine learning production model, deploy it, and consume it. I also created, published, and consumed a pipeline to automate the process.
+This project is part of the Udacity Azure ML Nanodegree (Microsoft Azure Machine Learning Engineer with Microsoft Azure - Course 3: ). In this project, I use the Bank marketing datasets and Azure to configure a cloud-based machine learning production model, deploy it, and consume it. I also created, published, and consumed a pipeline to automate the process.
 
 ## Architectural Diagram
 Here is my architecture diagram for this project:
