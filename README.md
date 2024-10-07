@@ -31,7 +31,8 @@ Let me explore some key of the component in this project:
 I used the lab Udacity for this exercise, so I skipped this step since I'm not authorized to create a security principal.
 
 **2. Automated ML Experiment**
-For this step, I used the **public-an-machine-learning-pipeline.ipynb** Jupyter Notebook file to create a Automated ML Experiment.
+
+For this step, I used the **deploy-model-inazure-ML.ipynb** Jupyter Notebook file to create a Automated ML Experiment.
 I created an AutoML experiment to run using the **Bank Marketing Dataset** loaded in the Azure Workspace, choosing 'y' as the target column.
 I uploaded this dataset into Azure ML Studio in the Registered Dataset Section using the Local file or URL provided in the project.
 I used the **Standard_DS3_v2** for the Virtual Machine and 1 as the minimum number of nodes.
