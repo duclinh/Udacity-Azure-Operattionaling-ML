@@ -32,9 +32,10 @@ I used the lab Udacity for this exercise, so I skipped this step since I'm not a
 
 **2. Automated ML Experiment**
 
-In this step, I created an AutoML experiment to run using the **Bank Marketing Dataset** loaded in the Azure Workspace, choosing 'y' as the target column.
+For this step, I used the **deploy-model-inazure-ML.ipynb** Jupyter Notebook file to create a Automated ML Experiment.
+I created an AutoML experiment to run using the **Bank Marketing Dataset** loaded in the Azure Workspace, choosing 'y' as the target column.
 I uploaded this dataset into Azure ML Studio in the Registered Dataset Section using the Local file or URL provided in the project.
-I used the **Standard_DS2_v2** for the Virtual Machine and 1 as the minimum number of nodes.
+I used the **Standard_DS3_v2** for the Virtual Machine and 1 as the minimum number of nodes.
 I ran the experiment using classification, without enabling Deep Learning. The run took some time to test various models and find the best model for the task.
 From my run, the best-performing model is the voting ensemble as shown below.
 
@@ -106,7 +107,7 @@ Finally, it's time to interact with the model and feed some test data to it. We 
 
 **7. Create and publish a pipeline**
 
-For this step, I used the aml-pipelines-with-automated-machine-learning-step Jupyter Notebook to create a Pipeline. I created, consumed and published the best model for the bank marketing dataset using AutoML with Python SDK.
+For this step, I used the **public-an-machine-learning-pipeline.ipynb** Jupyter Notebook file to create a Pipeline. I created, consumed and published the best model for the bank marketing dataset using AutoML with Python SDK.
 
 **Create a Pipeline in the SDK**
 ![alt text](<screenshots/11. create pipeline.png>)
