@@ -109,13 +109,30 @@ Finally, it's time to interact with the model and feed some test data to it. We 
 For this step, I used the aml-pipelines-with-automated-machine-learning-step Jupyter Notebook to create a Pipeline. I created, consumed and published the best model for the bank marketing dataset using AutoML with Python SDK.
 
 **Create a Pipeline in the SDK**
+![alt text](<screenshots/11. create pipeline.png>)
 
 **Pipeline in Azure Studio**
+![alt text](<screenshots/12. pipeline running.png>)
 
-**Pipeline Overview in Azure Studio**
+**Pipeline training**
+![alt text](<screenshots/12. pipeline running (2).png>)
 
 **Run Completed**
+![alt text](<screenshots/12. pipeline training completed.png>)
 
+**Run Completed - Metric outputs**
+![alt text](<screenshots/13. pipeline best models.png>)
+![alt text](<screenshots/14. pipeline the best model (metric - 1).png>)
+![alt text](<screenshots/14. pipeline the best model (metric - 2).png>)
+
+**Run Completed - The best model**
+![alt text](<screenshots/14. pipeline the best model.png>)
+
+**Pipeline Rest Endpoint - Completed**
+![alt text](<screenshots/pipeline with endpoint.png>)
+
+**Pipeline Rest Endpoint - Metrics**
+![alt text](<screenshots/the best model pipeline endpoint.png>)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
