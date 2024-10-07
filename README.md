@@ -88,21 +88,17 @@ Enabling Application Insights and Logs could have been done at the time of deplo
 I enable application insights by adding this line to the script: **service.update(enable_app_insights = True)**
 ![alt text](<screenshots/10. Application Insights enabled.png>)
 
-
 **5. Swagger Documentation**
 
 To consume my best AutoML model using Swagger, I first need to download the **swagger.json** file provided to us in the Endpoints section of Azure Machine Learning Studio. Then I run the **swagger.sh** and **serve.py** files to be able to interact with the swagger instance running with the documentation for the HTTP API of the model.
 ![alt text](<screenshots/Run localhost for swagger (1).png>)
+![alt text](<screenshots/localhost running.png>)
 
-**6. Consume model endpoints**
-
-Finally, it's time to interact with the model and feed some test data to it. We do this by providing the **scoring_uri** and the key to the **endpoint.py** script and running it.
-
-**Default Swagger page**
-
+**Running Swagger in docker**
+![alt text](<screenshots/run docket and swagger .png>)
 
 **Swagger documentation for the HTTP API of the model**
-
+![alt text](screenshots/swagger.png)
 
 
 **7. Create and publish a pipeline**
