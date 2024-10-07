@@ -106,7 +106,7 @@ Finally, it's time to interact with the model and feed some test data to it. We 
 
 **7. Create and publish a pipeline**
 
-For this step, I used the aml-pipelines-with-automated-machine-learning-step Jupyter Notebook to create a Pipeline. I created, consumed and published the best model for the bank marketing dataset using AutoML with Python SDK.
+For this step, I used the **public-an-machine-learning-pipeline.ipynb** Jupyter Notebook file to create a Pipeline. I created, consumed and published the best model for the bank marketing dataset using AutoML with Python SDK.
 
 **Create a Pipeline in the SDK**
 ![alt text](<screenshots/11. create pipeline.png>)
