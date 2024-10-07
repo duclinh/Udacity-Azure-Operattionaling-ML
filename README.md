@@ -9,10 +9,10 @@ This project is part of the Udacity Azure ML Nanodegree (Microsoft Azure Machine
 ## Architectural Diagram
 Here is my architecture diagram for this project:
 
-**Deploy the Model**
-
+**Deploy the Model - Running Jupyter Notebook file: deploy-model-inazure-ML.ipynb**
 ![alt text](<screenshots/Project 2 - Architechture diagram.PNG>)
-**Publish Pipeline**
+
+**Publish Pipeline - Running Jupyter Notebook file: public-an-machine-learning-pipeline.ipynb**
 
 ![alt text](<screenshots/Project 2 - Architechture diagram - pipeline.PNG>)
 
