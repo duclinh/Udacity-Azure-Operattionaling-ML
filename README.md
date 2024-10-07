@@ -91,11 +91,13 @@ I enable application insights by adding this line to the script: **service.updat
 **5. Swagger Documentation**
 
 To consume my best AutoML model using Swagger, I first need to download the **swagger.json** file provided to us in the Endpoints section of Azure Machine Learning Studio. Then I run the **swagger.sh** and **serve.py** files to be able to interact with the swagger instance running with the documentation for the HTTP API of the model.
-![alt text](<screenshots/Run localhost for swagger (1).png>)
-![alt text](<screenshots/localhost running.png>)
 
 **Running Swagger in docker**
 ![alt text](<screenshots/run docket and swagger .png>)
+
+**Localhost**
+![alt text](<screenshots/Run localhost for swagger (1).png>)
+![alt text](<screenshots/localhost running.png>)
 
 **Swagger documentation for the HTTP API of the model**
 ![alt text](screenshots/swagger.png)
