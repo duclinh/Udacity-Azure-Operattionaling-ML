@@ -17,5 +17,3 @@ logs = service.get_logs()
 
 for line in logs.split('\n'):
     print(line)
-
-
