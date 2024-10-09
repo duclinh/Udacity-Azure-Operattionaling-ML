@@ -134,9 +134,8 @@ For this step, I used the **public-an-machine-learning-pipeline.ipynb** Jupyter 
 ![alt text](<screenshots/the best model pipeline endpoint.png>)
 
 ## Screen Recording
-- The virtual environment on Udacity is not compatible with all the steps like the real environment, so there are many limitations for learners. 
-
-- The virtual environment on Udacity running Azure  Automated ML Experiment to train is quite slow and takes almost all the time of the Lab environment allowed on Udacity --> I don't have enough time to record a video --> please follow the steps and results I have done above and evaluate
+- Link to screen recording submission: https://www.veed.io/view/ff703846-7409-4cd3-a084-b9050518502f?panel=share
+- Link to screen recording submission (Youtube):https://youtu.be/FFasV_NVgaA
 
 ## Standout Suggestions
 
