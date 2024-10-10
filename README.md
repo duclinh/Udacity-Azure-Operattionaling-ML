@@ -151,6 +151,12 @@ For this step, I used the **public-an-machine-learning-pipeline.ipynb** Jupyter 
 
 **Published the REST Endpoints**
 
+**Created the Pipeline endpoints**
+![alt text](<screenshots/Create REST Endpoint - Pipeline endpoint.PNG>)
+
+**Published pipeline overview with status of ACTIVE**
+![alt text](<screenshots/pubplished pipeline.PNG>)
+
 ## Screen Recording
 - Link to screen recording submission: https://www.veed.io/view/ff703846-7409-4cd3-a084-b9050518502f?panel=share
 - Link to screen recording submission (Youtube):https://youtu.be/FFasV_NVgaA
