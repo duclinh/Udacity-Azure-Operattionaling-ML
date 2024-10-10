@@ -73,8 +73,6 @@ From my run, the best-performing model is the voting ensemble as shown below.
 
 The best model from my AutoML run is deployed into production using Azure Container Instance (ACI) and I can access endpoints through which other services can interact with my deployed model. 
 I also enable authentication during deployment so keys are generated that other services can use to authenticate before interacting with my deployed model.
-**Enable loggin**
-
 
 **Deploy the best model using Azure Container Instance (ACI) with Authentication enabled**
 ![alt text](<screenshots/8. Deploy Model.png>)
@@ -88,18 +86,24 @@ Enabling Application Insights and Logs could have been done at the time of deplo
 I enable application insights by adding this line to the script: **service.update(enable_app_insights = True)**
 ![alt text](<screenshots/update the endpoints script.PNG>)
 
+Running **logs.py** file
+![alt text](<screenshots/logs.py - 1.PNG>)
+![alt text](<screenshots/logs.py - 2.PNG>)
+
 Application Insights Enable change status from False to True
 ![alt text](<screenshots/10. Application Insights enabled.png>)
 
 Deploy Endpoints success with REST endpoint, Swagger URL
 ![alt text](<screenshots/Enable insignt.PNG>)
 
+![alt text](<screenshots/pubplished pipeline.PNG>)
+
 **5. Swagger Documentation**
 
 To consume my best AutoML model using Swagger, I first need to download the **swagger.json** file provided to us in the Endpoints section of Azure Machine Learning Studio. Then I run the **swagger.sh** and **serve.py** files to be able to interact with the swagger instance running with the documentation for the HTTP API of the model.
 
-update info in swagger.sh file
-
+Update info in swagger.sh file
+![alt text](<screenshots/swagger sh.PNG>)
 
 **Running Swagger in docker**
 ![alt text](<screenshots/run docket and swagger .png>)
@@ -126,6 +130,9 @@ Use the scoring URL and the primary key to update the **endpoints.py** script.
 
 Execute the **Endpoint.py** script to get the inference from the deployed model
 ![alt text](screenshots/endpoints.PNG)
+
+Run **Endpoint.py**, A data,json file appear
+![alt text](<screenshots/data json is produced.PNG>)
 
 **7. Create and publish a pipeline**
 
@@ -166,8 +173,12 @@ For this step, I used the **public-an-machine-learning-pipeline.ipynb** Jupyter 
 **Published pipeline overview with status of Success**
 ![alt text](<screenshots/published pipeline overview success.PNG>)
 
+**showing the "RunDetails Widget**
+Injupiter Notebook, showing the RunDetailsWidget" show the step runs --> at the moment the API no longer to support!
+![alt text](<screenshots/RunDetail no longer to supporter.PNG>)
+
 ## Screen Recording
-- Link to screen recording submission: https://www.veed.io/view/ff703846-7409-4cd3-a084-b9050518502f?panel=share
+- Link to screen recording submission: https://www.veed.io/view/f6979c89-21cd-4d4d-9def-ba981f4c6033?panel=share
 - Link to screen recording submission (Youtube):https://youtu.be/FFasV_NVgaA
 
 ## Standout Suggestions
