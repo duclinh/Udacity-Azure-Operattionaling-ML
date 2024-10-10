@@ -86,6 +86,7 @@ Enabling Application Insights and Logs could have been done at the time of deplo
 ![alt text](<screenshots/9. Enable logging.png>)
 
 I enable application insights by adding this line to the script: **service.update(enable_app_insights = True)**
+
 ![alt text](<screenshots/10. Application Insights enabled.png>)
 
 **5. Swagger Documentation**
@@ -102,6 +103,16 @@ To consume my best AutoML model using Swagger, I first need to download the **sw
 **Swagger documentation for the HTTP API of the model**
 ![alt text](screenshots/swagger.png)
 
+**6. Consume model Endpoints**
+In order to interact with the model and feed some test data to it, i add **the scoring_uri and  the key** to the endpoint.py script and run it.
+
+Shows the REST Endpoint link with primary key and secondary keys.
+![alt text](<screenshots/Rest Endpoint and Key.PNG>)
+
+Use the scoring URL and the primary key to update the endpoints.py script.
+![alt text](<screenshots/update the endpoints script.PNG>)
+
+Execute the **Endpoint.py** script to get the inference from the deployed model
 
 **7. Create and publish a pipeline**
 
