@@ -83,11 +83,16 @@ I also enable authentication during deployment so keys are generated that other 
 
 After deploying the best model, I can enable Application Insights and retrieve logs.
 Enabling Application Insights and Logs could have been done at the time of deployment, but for this project, I achieved it using Azure Python SDK. Running the **logs.py** script requires interactive authentication
-![alt text](<screenshots/9. Enable logging.png>)
+![alt text](<screenshots/azure login.PNG>)
 
 I enable application insights by adding this line to the script: **service.update(enable_app_insights = True)**
+![alt text](<screenshots/update the endpoints script.PNG>)
 
+Application Insights Enable change status from False to True
 ![alt text](<screenshots/10. Application Insights enabled.png>)
+
+Deploy Endpoints success with REST endpoint, Swagger URL
+![alt text](<screenshots/Enable insignt.PNG>)
 
 **5. Swagger Documentation**
 
@@ -109,7 +114,7 @@ In order to interact with the model and feed some test data to it, i add **the s
 Shows the REST Endpoint link with primary key and secondary keys.
 ![alt text](<screenshots/Rest Endpoint and Key.PNG>)
 
-Use the scoring URL and the primary key to update the endpoints.py script.
+Use the scoring URL and the primary key to update the **endpoints.py** script.
 ![alt text](<screenshots/update the endpoints script.PNG>)
 
 Execute the **Endpoint.py** script to get the inference from the deployed model
@@ -143,6 +148,8 @@ For this step, I used the **public-an-machine-learning-pipeline.ipynb** Jupyter 
 
 **Pipeline Rest Endpoint - Metrics**
 ![alt text](<screenshots/the best model pipeline endpoint.png>)
+
+**Published the REST Endpoints**
 
 ## Screen Recording
 - Link to screen recording submission: https://www.veed.io/view/ff703846-7409-4cd3-a084-b9050518502f?panel=share
