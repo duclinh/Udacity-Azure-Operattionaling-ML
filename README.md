@@ -118,6 +118,7 @@ Use the scoring URL and the primary key to update the **endpoints.py** script.
 ![alt text](<screenshots/update the endpoints script.PNG>)
 
 Execute the **Endpoint.py** script to get the inference from the deployed model
+![alt text](screenshots/endpoints.PNG)
 
 **7. Create and publish a pipeline**
 
