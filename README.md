@@ -179,7 +179,7 @@ Injupiter Notebook, showing the RunDetailsWidget" show the step runs --> at the 
 
 ## Screen Recording
 - Link to screen recording submission: https://www.veed.io/view/f6979c89-21cd-4d4d-9def-ba981f4c6033?panel=share
-- Link to screen recording submission (Youtube):https://youtu.be/FFasV_NVgaA
+- Link to screen recording submission (Youtube): https://youtu.be/mTyj3Bd1PaI
 
 ## Standout Suggestions
 
