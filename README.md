@@ -98,18 +98,25 @@ Deploy Endpoints success with REST endpoint, Swagger URL
 
 To consume my best AutoML model using Swagger, I first need to download the **swagger.json** file provided to us in the Endpoints section of Azure Machine Learning Studio. Then I run the **swagger.sh** and **serve.py** files to be able to interact with the swagger instance running with the documentation for the HTTP API of the model.
 
+update info in swagger.sh file
+
+
 **Running Swagger in docker**
 ![alt text](<screenshots/run docket and swagger .png>)
-
+[text](<screenshots/swagger sh.png>)
 **Localhost**
 ![alt text](<screenshots/Run localhost for swagger (1).png>)
 ![alt text](<screenshots/localhost running.png>)
 
 **Swagger documentation for the HTTP API of the model**
-![alt text](screenshots/swagger.png)
+![alt text](<screenshots/swager localhost 9000.PNG>)
+![alt text](<screenshots/swagger - localhost 8000.PNG>)
+![alt text](<screenshots/swagger - explore 2.PNG>)
+![alt text](<screenshots/swagger - explore 3.PNG>)
+![alt text](<screenshots/swagger - explore 4.PNG>)
 
 **6. Consume model Endpoints**
-In order to interact with the model and feed some test data to it, i add **the scoring_uri and  the key** to the endpoint.py script and run it.
+In order to interact with the model and feed some test data to it, i add **the scoring_uri and  the key** to the **endpoint.py** script and run it.
 
 Shows the REST Endpoint link with primary key and secondary keys.
 ![alt text](<screenshots/Rest Endpoint and Key.PNG>)
@@ -150,13 +157,14 @@ For this step, I used the **public-an-machine-learning-pipeline.ipynb** Jupyter 
 **Pipeline Rest Endpoint - Metrics**
 ![alt text](<screenshots/the best model pipeline endpoint.png>)
 
-**Published the REST Endpoints**
-
 **Created the Pipeline endpoints**
 ![alt text](<screenshots/Create REST Endpoint - Pipeline endpoint.PNG>)
 
 **Published pipeline overview with status of ACTIVE**
 ![alt text](<screenshots/pubplished pipeline.PNG>)
+
+**Published pipeline overview with status of Success**
+![alt text](<screenshots/published pipeline overview success.PNG>)
 
 ## Screen Recording
 - Link to screen recording submission: https://www.veed.io/view/ff703846-7409-4cd3-a084-b9050518502f?panel=share
